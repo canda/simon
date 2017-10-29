@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background: grey;
+}
+
+.container {
+  width: 100vw;
+  height: 100vw;
+  max-width: 100vh;
+  max-height: 100vh;
+  margin: auto;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.button {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  opacity: 0.5;
+}
+
+.button.active {
+  opacity: 1;
+}
+
+#red {
+  left: 0;
+  top: 0;
+  background: red;
+}
+
+#green {
+  right: 0;
+  top: 0;
+  background: green;
+}
+
+#blue {
+  left: 0;
+  bottom: 0;
+  background: blue;
+}
+
+#yellow {
+  right: 0;
+  bottom: 0;
+  background: yellow;
+}
